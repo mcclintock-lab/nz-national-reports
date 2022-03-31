@@ -1,1 +1,1 @@
-DATASET_S3_BUCKET=gp-nz-national-reports-datasets
+DATASET_S3_BUCKET=gp-nz-national-reports-1-datasets

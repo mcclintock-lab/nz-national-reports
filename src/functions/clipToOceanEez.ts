@@ -6,30 +6,34 @@ import {
   Feature,
   Polygon,
   MultiPolygon,
+  BBox,
+  FeatureCollection,
   clip,
 } from "@seasketch/geoprocessing";
-import area from "@turf/area";
+import bboxClip from "@turf/bbox-clip";
 import bbox from "@turf/bbox";
-import { featureCollection as fc } from "@turf/helpers";
-import flatten from "@turf/flatten";
+import { featureCollection as fc, feature as turfFeature } from "@turf/helpers";
+import area from "@turf/area";
 import kinks from "@turf/kinks";
 import { clipMultiMerge } from "@seasketch/geoprocessing";
+import splitGeojson from "geojson-antimeridian-cut";
+import { cleanCoords } from "../util/cleanCoords";
 
-const MAX_SIZE = 500000 * 1000 ** 2;
+const MAX_SIZE = 100000000 * 1000 ** 2;
 
-type OsmLandFeature = Feature<Polygon, { gid: number }>;
+type LandFeature = Feature<Polygon, { gid: number }>;
 type EezLandUnion = Feature<Polygon, { gid: number; UNION: string }>;
 
 // Defined at module level for potential caching/reuse by serverless process
-const SubdividedOsmLandSource = new VectorDataSource<OsmLandFeature>(
-  "https://d3p1dsef9f0gjr.cloudfront.net/"
+const SubdividedLandSource = new VectorDataSource<LandFeature>(
+  "https://d2w9fmrdefgbbv.cloudfront.net"
 );
 const SubdividedEezLandUnionSource = new VectorDataSource<EezLandUnion>(
   "https://d3muy0hbwp5qkl.cloudfront.net"
 );
 
 export async function clipLand(feature: Feature<Polygon | MultiPolygon>) {
-  const landFeatures = await SubdividedOsmLandSource.fetchUnion(
+  const landFeatures = await SubdividedLandSource.fetchUnion(
     bbox(feature),
     "gid"
   );
@@ -39,7 +43,7 @@ export async function clipLand(feature: Feature<Polygon | MultiPolygon>) {
 
 export async function clipOutsideEez(
   feature: Feature<Polygon | MultiPolygon>,
-  eezFilterByNames: string[] = []
+  eezFilterByNames: string[] = ["New Zealand"]
 ) {
   let eezFeatures = await SubdividedEezLandUnionSource.fetch(bbox(feature));
   if (eezFeatures.length === 0) return feature;
@@ -66,7 +70,7 @@ export async function clipToOceanEez(
 
   if (area(feature) > MAX_SIZE) {
     throw new ValidationError(
-      "Please limit sketches to under 500,000 square km"
+      "Please limit sketches to under 100,000,000 square km"
     );
   }
 
@@ -75,25 +79,18 @@ export async function clipToOceanEez(
     throw new ValidationError("Your sketch polygon crosses itself.");
   }
 
-  let clipped = await clipLand(feature);
-  if (clipped) clipped = await clipOutsideEez(clipped, eezFilterByNames);
+  // Ensure coordinate positions are within -180 to 180 longitude, -90 to 90 latitude
+  const cleanFeature = cleanCoords(feature) as Feature<MultiPolygon>;
+  // Split geojson on antimeridian if it crosses, otherwise simply returns original
+  const splitOrNotFeature = splitGeojson(cleanFeature);
+
+  let clipped = await clipLand(splitOrNotFeature);
+  // if (clipped) clipped = await clipOutsideEez(clipped, eezFilterByNames);
 
   if (!clipped || area(clipped) === 0) {
     throw new ValidationError("Sketch is outside of project boundaries");
   } else {
-    if (clipped.geometry.type === "MultiPolygon") {
-      const flattened = flatten(clipped);
-      let biggest = [0, 0];
-      for (var i = 0; i < flattened.features.length; i++) {
-        const a = area(flattened.features[i]);
-        if (a > biggest[0]) {
-          biggest = [a, i];
-        }
-      }
-      return flattened.features[biggest[1]] as Feature<Polygon>;
-    } else {
-      return clipped;
-    }
+    return clipped;
   }
 }
 
@@ -103,4 +100,5 @@ export default new PreprocessingHandler(clipToOceanEez, {
     "Erases portion of sketch overlapping with land or extending into ocean outsize EEZ boundary",
   timeout: 40,
   requiresProperties: [],
+  memory: 10240,
 });

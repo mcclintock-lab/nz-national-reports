@@ -24,6 +24,7 @@ services:
     # within the workspace. 
     volumes:
       - "..:/project"
+      - "~/Box\ Sync/GIS/NewZealand/Analytics/national:/project/data/src"
     # Switch to the data directory on startup
     working_dir: /project/data
     depends_on:

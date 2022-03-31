@@ -1,6 +1,11 @@
+/**
+ * @group smoke
+ * @jest-environment node
+ */
+
 import { clipToOceanEez } from "./clipToOceanEez";
 import {
-  getExampleFeatures,
+  getExamplePolygonSketches,
   writeResultOutput,
 } from "@seasketch/geoprocessing/scripts/testing";
 import { ValidationError } from "@seasketch/geoprocessing";
@@ -12,7 +17,7 @@ describe("Basic smoke tests", () => {
   });
 
   test("clipToOceanEez", async () => {
-    const examples = await getExampleFeatures("gp-clip-ocean");
+    const examples = await getExamplePolygonSketches();
     for (const example of examples) {
       try {
         const result = await clipToOceanEez(example);
