@@ -1,4 +1,4 @@
-import { DataClass, Report } from "@seasketch/geoprocessing";
+import { DataClass, Report, MetricGroup } from "@seasketch/geoprocessing";
 import geoprocessingJson from "../geoprocessing.json";
 import packageJson from "../package.json";
 
@@ -28,20 +28,24 @@ export const objectives = {};
 // Multi-class raster (categorical)
 const sccClasses: DataClass[] = Array.from({ length: 75 }, (v, i) => ({
   numericClassId: i,
-  classId: `Group ${i}`,
+  classId: `${i}`,
   display: `Group ${i}`,
 }));
 
-const sccHabitat: Report = {
-  reportId: "sccHabitat",
+const habitatAreaOverlap: MetricGroup = {
+  metricId: "sccHabitatAreaOverlap",
+  datasourceId: "sccHabitat",
+  baseFilename: "SCC_GF75_250m_merged",
+  filename: `SCC_GF75_250m_merged_east180${fgbFileSuffix}`,
+  classProperty: "DN",
+  classes: sccClasses,
+  layerId: "",
+};
+
+const habitatReport: Report = {
+  reportId: "habitat",
   metrics: {
-    areaOverlap: {
-      metricId: "areaOverlap",
-      baseFilename: "SCC_GF75_250m_merged_east180",
-      filename: `SCC_GF75_250m_merged_east180${cogFileSuffix}`,
-      classes: sccClasses,
-      layerId: "",
-    },
+    areaOverlap: habitatAreaOverlap,
   },
 };
 
@@ -51,7 +55,10 @@ export default {
   localDataUrl,
   dataBucketUrl,
   objectives,
+  metricGroups: {
+    habitatAreaOverlap,
+  },
   reports: {
-    sccHabitat
+    habitatReport,
   },
 };

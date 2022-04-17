@@ -6,13 +6,10 @@ import {
   Feature,
   Polygon,
   MultiPolygon,
-  BBox,
-  FeatureCollection,
   clip,
 } from "@seasketch/geoprocessing";
-import bboxClip from "@turf/bbox-clip";
 import bbox from "@turf/bbox";
-import { featureCollection as fc, feature as turfFeature } from "@turf/helpers";
+import { featureCollection as fc } from "@turf/helpers";
 import area from "@turf/area";
 import kinks from "@turf/kinks";
 import { clipMultiMerge } from "@seasketch/geoprocessing";

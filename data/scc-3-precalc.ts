@@ -1,92 +1,53 @@
 // Run inside workspace
-// Precalculates overall stats used by habitat protection function
 
 import fs from "fs";
 import config from "../src/_config";
+import area from "@turf/area";
+import { featureCollection } from "@turf/helpers";
 import {
-  Georaster,
   Metric,
   ReportResultBase,
-  classIdMapping,
   createMetric,
   rekeyMetrics,
 } from "@seasketch/geoprocessing";
-import { loadCogWindow } from "../src/cog";
-// @ts-ignore
-import geoblaze from "geoblaze";
 
-const REPORT = config.reports.sccHabitat;
-const METRIC = REPORT.metrics.areaOverlap;
-const DEST_PATH = `${__dirname}/precalc/sccTotals.json`;
+const METRIC = config.metricGroups.habitatAreaOverlap;
+const DEST_PATH = `${__dirname}/precalc/${METRIC.datasourceId}Totals.json`;
+
+const allFc = JSON.parse(
+  fs.readFileSync(`${__dirname}/dist/${METRIC.baseFilename}.json`).toString()
+);
 
 async function main() {
-  const url = `${config.localDataUrl}${METRIC.filename}`;
+  const metrics: Metric[] = await Promise.all(
+    METRIC.classes.map(async (curClass) => {
+      // Filter out single class, exclude null geometry too
+      const classFeatures = allFc.features.filter((feat: any) => {
+        return (
+          feat.geometry &&
+          `${feat.properties[METRIC.classProperty!]}` === curClass.classId
+        );
+      }, []);
+      console.log(curClass.classId, classFeatures.length);
+      const classFC = featureCollection(classFeatures);
+      const value = area(classFC);
+      return createMetric({
+        classId: curClass.classId,
+        metricId: METRIC.metricId,
+        value,
+      });
+    })
+  );
 
-  try {
-    const raster = await loadCogWindow(url, {}); // Load wole raster
-    const metrics: Metric[] = await countByClass(raster, {
-      classIdToName: classIdMapping(METRIC.classes),
-    });
+  const result: ReportResultBase = {
+    metrics: rekeyMetrics(metrics),
+  };
 
-    const result: ReportResultBase = {
-      metrics: rekeyMetrics(metrics),
-    };
-
-    fs.writeFile(DEST_PATH, JSON.stringify(result, null, 2), (err) =>
-      err
-        ? console.error("Error", err)
-        : console.info(`Successfully wrote ${DEST_PATH}`)
-    );
-  } catch (err) {
-    throw new Error(
-      `raster fetch failed, did you start-data? Is this url correct? ${url}`
-    );
-  }
+  fs.writeFile(DEST_PATH, JSON.stringify(result, null, 2), (err) =>
+    err
+      ? console.error("Error", err)
+      : console.info(`Successfully wrote ${DEST_PATH}`)
+  );
 }
 
-(async function () {
-  await main();
-})().catch(console.error);
-
-/**
- * Implements the raster-based areaByClass calculation
- * ToDo: migrate to overlapRasterClass non-sketch
- */
-async function countByClass(
-  /** raster to search */
-  raster: Georaster,
-  config: { classIdToName: Record<string, string> }
-): Promise<Metric[]> {
-  if (!config.classIdToName)
-    throw new Error("Missing classIdToName map in config");
-
-  const histogram = geoblaze.histogram(raster, undefined, {
-    scaleType: "nominal",
-  })[0];
-
-  const numericClassIds = Object.keys(config.classIdToName);
-
-  // Migrate the total counts, skip nodata
-  let metrics: Metric[] = [];
-  numericClassIds.forEach((numericClassId) => {
-    if (histogram[numericClassId]) {
-      metrics.push(
-        createMetric({
-          metricId: METRIC.metricId,
-          classId: config.classIdToName[numericClassId],
-          value: histogram[numericClassId],
-        })
-      );
-    } else {
-      metrics.push(
-        createMetric({
-          metricId: METRIC.metricId,
-          classId: config.classIdToName[numericClassId],
-          value: 0,
-        })
-      );
-    }
-  });
-
-  return metrics;
-}
+main();
