@@ -2,9 +2,15 @@
   "author": "Tim Welch <tim.j.welch@gmail.com>",
   "organization": "SeaSketch",
   "region": "us-west-1",
-  "clients": [],
+  "clients": [{
+    "name": "Habitat",
+    "description": "SCC Habitat metrics",
+    "source": "src/clients/Habitat.tsx"
+  }],
   "preprocessingFunctions": [
     "src/functions/clipToOceanEez.ts"
   ],
-  "geoprocessingFunctions": []
+  "geoprocessingFunctions": [
+    "src/functions/sccHabitat.ts"
+  ]
 }

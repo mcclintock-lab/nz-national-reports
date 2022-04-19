@@ -27,19 +27,19 @@ export const objectives = {};
 
 // Multi-class raster (categorical)
 const sccClasses: DataClass[] = Array.from({ length: 75 }, (v, i) => ({
-  numericClassId: i,
-  classId: `${i}`,
-  display: `Group ${i}`,
+  numericClassId: i + 1,
+  classId: `${i + 1}`,
+  display: `Group ${i + 1}`,
 }));
 
 const habitatAreaOverlap: MetricGroup = {
   metricId: "sccHabitatAreaOverlap",
   datasourceId: "sccHabitat",
   baseFilename: "SCC_GF75_250m_merged",
-  filename: `SCC_GF75_250m_merged_east180${fgbFileSuffix}`,
+  filename: `SCC_GF75_250m_merged${fgbFileSuffix}`,
   classProperty: "DN",
   classes: sccClasses,
-  layerId: "",
+  layerId: "6063dc472b3a98ca7fba3567",
 };
 
 const habitatReport: Report = {

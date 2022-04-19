@@ -28,7 +28,6 @@ async function main() {
           `${feat.properties[METRIC.classProperty!]}` === curClass.classId
         );
       }, []);
-      console.log(curClass.classId, classFeatures.length);
       const classFC = featureCollection(classFeatures);
       const value = area(classFC);
       return createMetric({
