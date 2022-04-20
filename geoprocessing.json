@@ -3,9 +3,9 @@
   "organization": "SeaSketch",
   "region": "us-west-1",
   "clients": [{
-    "name": "Habitat",
-    "description": "SCC Habitat metrics",
-    "source": "src/clients/Habitat.tsx"
+    "name": "AllReports",
+    "description": "All reports",
+    "source": "src/clients/AllReports.tsx"
   }],
   "preprocessingFunctions": [
     "src/functions/clipToOceanEez.ts"

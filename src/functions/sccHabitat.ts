@@ -11,6 +11,7 @@ import {
   sortMetrics,
   overlapFeatures,
   MultiPolygon,
+  VectorDataSource,
 } from "@seasketch/geoprocessing";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
@@ -18,15 +19,15 @@ import config from "../_config";
 
 const METRIC = config.metricGroups.habitatAreaOverlap;
 
-// Multi-class vector dataset
 export const classProperty = "DN";
-export type ExistingProtectionProperties = {
+export type HabitatProperties = {
   [classProperty]: string;
 };
-export type ExistingProtectionFeature = Feature<
-  Polygon,
-  ExistingProtectionProperties
->;
+export type HabitatFeature = Feature<Polygon, HabitatProperties>;
+
+const SubdividedHabitatSource = new VectorDataSource<HabitatFeature>(
+  "https://d2zhyg02k9buea.cloudfront.net"
+);
 
 export async function sccHabitat(
   sketch:
@@ -34,9 +35,11 @@ export async function sccHabitat(
     | SketchCollection<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  const url = `${config.dataBucketUrl}${METRIC.filename}`;
-  console.log(url);
-  const features = await fgbFetchAll<ExistingProtectionFeature>(url, box);
+  // const url = `${config.dataBucketUrl}${METRIC.filename}`;
+  // console.log(url);
+
+  // const features = await fgbFetchAll<ExistingProtectionFeature>(url, box);
+  let features = await SubdividedHabitatSource.fetch(box);
 
   const metrics: Metric[] = (
     await Promise.all(
@@ -77,9 +80,9 @@ export async function sccHabitat(
 export default new GeoprocessingHandler(sccHabitat, {
   title: "sccHabitat",
   description: "Find which scc habitat the sketch overlaps with",
-  timeout: 180, // seconds
+  timeout: 240, // seconds
   executionMode: "async",
-  memory: 4096,
+  memory: 10240,
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
 });

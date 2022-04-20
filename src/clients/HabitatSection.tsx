@@ -69,13 +69,6 @@ const Habitat = () => {
                 percMetricIdName={percentMetricId}
                 formatPerc
                 showLayerToggle={false}
-                options={{
-                  classColWidth: "25%",
-                  areaWidth: "30%",
-                  percColWidth: "45%",
-                  showMapWidth: "0%",
-                  goalWidth: "0%",
-                }}
               />
               <DataDownload
                 filename="hgmspHabitat"

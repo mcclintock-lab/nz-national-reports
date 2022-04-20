@@ -70,7 +70,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
   rows,
   dataGroup,
   formatPerc = false,
-  valueColText = "Area Within Plan",
+  valueColText = " ",
   percColText = "% Within Plan",
   showLayerToggle = false,
   layerColText = "Show Map",

@@ -36,5 +36,8 @@ gdal_polygonize.py dist/SCC_GF75_250m_merged_east180_cog.tif -f GeoJSON  dist/SC
 ogrmerge.py -single -overwrite_ds -f GeoJSON -o dist/SCC_GF75_250m_merged.json dist/SCC_GF75_250m_merged_west180.json dist/SCC_GF75_250m_merged_east180.json
 ogr2ogr -t_srs "EPSG:4326" -f FlatGeobuf -explodecollections "${DST_PATH}/SCC_GF75_250m_merged.fgb" "${DST_PATH}/SCC_GF75_250m_merged.json"
 
+# For subdivide
+ogr2ogr -t_srs "EPSG:4326" -nlt POLYGON -explodecollections -dialect SQLite -sql "select DN, st_buffer(geom)" "dist/SCC_GF75_250m_merged.shp" "dist/SCC_GF75_250m_merged.fgb"
+
 rm dist/SCC_GF75_250m_merged_west180*
 rm dist/SCC_GF75_250m_merged_east180*
