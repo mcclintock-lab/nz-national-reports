@@ -29,6 +29,7 @@ const SubdividedHabitatSource = new VectorDataSource<HabitatFeature>(
   "https://d2zhyg02k9buea.cloudfront.net"
 );
 
+// This function is quite slow, raster version is used instead
 export async function sccHabitat(
   sketch:
     | Sketch<Polygon | MultiPolygon>

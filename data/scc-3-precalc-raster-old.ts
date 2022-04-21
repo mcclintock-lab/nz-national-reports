@@ -15,8 +15,8 @@ import { loadCogWindow } from "../src/cog";
 // @ts-ignore
 import geoblaze from "geoblaze";
 
-const METRIC = config.metricGroups.habitatAreaOverlap;
-const DEST_PATH = `${__dirname}/precalc/sccTotals.json`;
+const METRIC = config.metricGroups.habitatAreaOverlapRaster;
+const DEST_PATH = `${__dirname}/precalc/${METRIC.datasourceId}Totals.json`;
 
 async function main() {
   const url = `${config.localDataUrl}${METRIC.filename}`;

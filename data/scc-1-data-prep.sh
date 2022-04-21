@@ -8,10 +8,13 @@ LAYER=SCC_GF75_250m_merged
 
 rm dist/${LAYER}*
 
+# copy whole in epsg 9191
+# cp "${SRC_PATH}/${LAYER}.tif" "${DST_PATH}/${LAYER}.tif"
+gdal_translate -r nearest -of COG -stats "${SRC_PATH}/${LAYER}.tif" "${DST_PATH}/${LAYER}_9191_cog.tif"
+
 # gdal_translate -r nearest -of COG -stats "${SRC_PATH}/${LAYER}.tif" "${DST_PATH}/${LAYER}_cog.tif"
 # # warp to 4326 first so that cuts are clean
 gdalwarp -t_srs "EPSG:4326" "${SRC_PATH}/${LAYER}.tif" "${DST_PATH}/${LAYER}_4326.tif"
-
 
 # Split along antimeridian
 # -projwin ulx uly lrx lry
@@ -35,9 +38,3 @@ gdal_polygonize.py dist/SCC_GF75_250m_merged_east180_cog.tif -f GeoJSON  dist/SC
 # Merge split features back into one JSON
 ogrmerge.py -single -overwrite_ds -f GeoJSON -o dist/SCC_GF75_250m_merged.json dist/SCC_GF75_250m_merged_west180.json dist/SCC_GF75_250m_merged_east180.json
 ogr2ogr -t_srs "EPSG:4326" -f FlatGeobuf -explodecollections "${DST_PATH}/SCC_GF75_250m_merged.fgb" "${DST_PATH}/SCC_GF75_250m_merged.json"
-
-# For subdivide
-ogr2ogr -t_srs "EPSG:4326" -nlt POLYGON -explodecollections -dialect SQLite -sql "select DN, st_buffer(geom)" "dist/SCC_GF75_250m_merged.shp" "dist/SCC_GF75_250m_merged.fgb"
-
-rm dist/SCC_GF75_250m_merged_west180*
-rm dist/SCC_GF75_250m_merged_east180*

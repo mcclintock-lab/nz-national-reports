@@ -42,6 +42,35 @@ const habitatAreaOverlap: MetricGroup = {
   layerId: "6063dc472b3a98ca7fba3567",
 };
 
+interface MetricGroupRegion extends MetricGroup {
+  regions: Array<{
+    regionName: string;
+    baseFilename: string;
+    filename: string;
+  }>;
+  totalArea?: number;
+}
+
+const habitatAreaOverlapRasterRegion: MetricGroupRegion = {
+  metricId: "sccHabitatAreaOverlap",
+  datasourceId: "sccHabitatRasterRegion",
+  totalArea: 8464 * 250 * (13340 * 250), // based on equal area raster dimensions and cell size
+  regions: [
+    {
+      regionName: "east",
+      baseFilename: "SCC_GF75_250m_merged_east180",
+      filename: `SCC_GF75_250m_merged_east180${cogFileSuffix}`,
+    },
+    {
+      regionName: "west",
+      baseFilename: "SCC_GF75_250m_merged_west180",
+      filename: `SCC_GF75_250m_merged_west180${cogFileSuffix}`,
+    },
+  ],
+  classes: sccClasses,
+  layerId: "6063dc472b3a98ca7fba3567",
+};
+
 const habitatReport: Report = {
   reportId: "habitat",
   metrics: {
@@ -57,6 +86,7 @@ export default {
   objectives,
   metricGroups: {
     habitatAreaOverlap,
+    habitatAreaOverlapRasterRegion,
   },
   reports: {
     habitatReport,

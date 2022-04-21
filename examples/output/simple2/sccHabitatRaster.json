@@ -1,0 +1,998 @@
+{
+  "metrics": [
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "1",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10127,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "2",
+      "groupId": null,
+      "geographyId": null,
+      "value": 150184,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "3",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12846,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "4",
+      "groupId": null,
+      "geographyId": null,
+      "value": 92224,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "5",
+      "groupId": null,
+      "geographyId": null,
+      "value": 98966,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "6",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "7",
+      "groupId": null,
+      "geographyId": null,
+      "value": 312,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "8",
+      "groupId": null,
+      "geographyId": null,
+      "value": 43521,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "9",
+      "groupId": null,
+      "geographyId": null,
+      "value": 20789,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "10",
+      "groupId": null,
+      "geographyId": null,
+      "value": 32,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "11",
+      "groupId": null,
+      "geographyId": null,
+      "value": 20,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "12",
+      "groupId": null,
+      "geographyId": null,
+      "value": 45706,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "13",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8182,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "14",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3139,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "15",
+      "groupId": null,
+      "geographyId": null,
+      "value": 115,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "16",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6940,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "17",
+      "groupId": null,
+      "geographyId": null,
+      "value": 238,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "18",
+      "groupId": null,
+      "geographyId": null,
+      "value": 10,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "19",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "20",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "21",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "22",
+      "groupId": null,
+      "geographyId": null,
+      "value": 89710,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "23",
+      "groupId": null,
+      "geographyId": null,
+      "value": 466,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "24",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "25",
+      "groupId": null,
+      "geographyId": null,
+      "value": 226,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "26",
+      "groupId": null,
+      "geographyId": null,
+      "value": 78,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "27",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "28",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3849,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "29",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "30",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6552,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "31",
+      "groupId": null,
+      "geographyId": null,
+      "value": 36,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "32",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "33",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3076,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "34",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "35",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "36",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "37",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "38",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "39",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "40",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "41",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1452,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "42",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1146,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "43",
+      "groupId": null,
+      "geographyId": null,
+      "value": 348,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "44",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "45",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "46",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "47",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9862,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "48",
+      "groupId": null,
+      "geographyId": null,
+      "value": 166,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "49",
+      "groupId": null,
+      "geographyId": null,
+      "value": 146,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "50",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1366,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "51",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1320,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "52",
+      "groupId": null,
+      "geographyId": null,
+      "value": 56,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "53",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "54",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "55",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "56",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "57",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "58",
+      "groupId": null,
+      "geographyId": null,
+      "value": 34,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "59",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "60",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "61",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "62",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "63",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "64",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "65",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "66",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "67",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "68",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "69",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "70",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "71",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "72",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "73",
+      "groupId": null,
+      "geographyId": null,
+      "value": 262,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "74",
+      "groupId": null,
+      "geographyId": null,
+      "value": 130,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "sccHabitatAreaOverlap",
+      "sketchId": "62602d6bd9112582365f6e3a",
+      "classId": "75",
+      "groupId": null,
+      "geographyId": null,
+      "value": 244,
+      "extra": {
+        "sketchName": "simple2",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "type": "FeatureCollection",
+    "properties": {
+      "id": "62602d6bd9112582365f6e3a",
+      "name": "simple2",
+      "updatedAt": "2022-04-20T15:57:41.535Z",
+      "createdAt": "2022-04-18T03:24:10.897Z",
+      "sketchClassId": "61f070d3b22c0f2218b1309b",
+      "isCollection": true,
+      "userAttributes": []
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "62602d6bd9112582365f6e3c",
+          "name": "northeast",
+          "updatedAt": "2022-04-20T15:57:32.701Z",
+          "createdAt": "2022-04-18T03:23:35.376Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type",
+              "value": "SPA"
+            }
+          ]
+        },
+        "id": "1",
+        "bbox": [
+          -179.99999999999696,
+          -32.422003335296495,
+          179.99999999999696,
+          -25.66660506711677
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "62602d6bd9112582365f6e39",
+          "name": "south",
+          "updatedAt": "2022-04-20T15:57:31.486Z",
+          "createdAt": "2022-04-18T03:22:21.348Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type",
+              "value": "HPA"
+            }
+          ]
+        },
+        "id": "2",
+        "bbox": [
+          -179.99999999999696,
+          -57.16324975163721,
+          179.99999999999696,
+          -49.813405642841
+        ],
+        "geometry": null
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "62602d6bd9112582365f6e3b",
+          "name": "north",
+          "updatedAt": "2022-04-20T15:57:31.676Z",
+          "createdAt": "2022-04-18T03:22:54.724Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type"
+            }
+          ]
+        },
+        "id": "3",
+        "bbox": [
+          167.777533969066,
+          -37.014287038428066,
+          176.30052133478569,
+          -28.888280492486146
+        ],
+        "geometry": null
+      }
+    ]
+  }
+}
