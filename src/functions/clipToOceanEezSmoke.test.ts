@@ -22,7 +22,6 @@ describe("Basic smoke tests", () => {
       try {
         const result = await clipToOceanEez(example);
         expect(result).toBeTruthy();
-        expect(booleanValid(result));
         expect(
           result.geometry.type === "Polygon" ||
             result.geometry.type === "MultiPolygon"

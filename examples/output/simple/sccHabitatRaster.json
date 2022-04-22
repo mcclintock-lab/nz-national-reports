@@ -42,7 +42,7 @@
       "classId": "4",
       "groupId": null,
       "geographyId": null,
-      "value": 90226,
+      "value": 85792,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -54,7 +54,7 @@
       "classId": "5",
       "groupId": null,
       "geographyId": null,
-      "value": 98966,
+      "value": 94288,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -90,7 +90,7 @@
       "classId": "8",
       "groupId": null,
       "geographyId": null,
-      "value": 41553,
+      "value": 42539,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -126,7 +126,7 @@
       "classId": "11",
       "groupId": null,
       "geographyId": null,
-      "value": 8,
+      "value": 16,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -138,7 +138,7 @@
       "classId": "12",
       "groupId": null,
       "geographyId": null,
-      "value": 45696,
+      "value": 45706,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -150,7 +150,7 @@
       "classId": "13",
       "groupId": null,
       "geographyId": null,
-      "value": 3888,
+      "value": 6332,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -162,7 +162,7 @@
       "classId": "14",
       "groupId": null,
       "geographyId": null,
-      "value": 3137,
+      "value": 3139,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -186,7 +186,7 @@
       "classId": "16",
       "groupId": null,
       "geographyId": null,
-      "value": 2100,
+      "value": 4140,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -198,7 +198,7 @@
       "classId": "17",
       "groupId": null,
       "geographyId": null,
-      "value": 42,
+      "value": 98,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -210,7 +210,7 @@
       "classId": "18",
       "groupId": null,
       "geographyId": null,
-      "value": 2,
+      "value": 10,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -258,7 +258,7 @@
       "classId": "22",
       "groupId": null,
       "geographyId": null,
-      "value": 89704,
+      "value": 89710,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -330,7 +330,7 @@
       "classId": "28",
       "groupId": null,
       "geographyId": null,
-      "value": 11,
+      "value": 1361,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -354,7 +354,7 @@
       "classId": "30",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 2096,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -366,7 +366,7 @@
       "classId": "31",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 4,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -390,7 +390,7 @@
       "classId": "33",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 966,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -486,7 +486,7 @@
       "classId": "41",
       "groupId": null,
       "geographyId": null,
-      "value": 894,
+      "value": 1452,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -498,7 +498,7 @@
       "classId": "42",
       "groupId": null,
       "geographyId": null,
-      "value": 370,
+      "value": 1146,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -510,7 +510,7 @@
       "classId": "43",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 348,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -582,7 +582,7 @@
       "classId": "49",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 146,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -594,7 +594,7 @@
       "classId": "50",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 2,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -606,7 +606,7 @@
       "classId": "51",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 582,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -690,7 +690,7 @@
       "classId": "58",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 34,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -870,7 +870,7 @@
       "classId": "73",
       "groupId": null,
       "geographyId": null,
-      "value": 0,
+      "value": 74,
       "extra": {
         "sketchName": "simple",
         "isCollection": true
@@ -906,7 +906,7 @@
     "properties": {
       "id": "625cd9da73095115bb25ec1f",
       "name": "simple",
-      "updatedAt": "2022-04-18T03:25:27.823Z",
+      "updatedAt": "2022-04-22T06:06:30.362Z",
       "createdAt": "2022-04-18T03:24:10.897Z",
       "sketchClassId": "61f070d3b22c0f2218b1309b",
       "isCollection": true,
@@ -918,7 +918,7 @@
         "properties": {
           "id": "625cd96d73095115bb25ec19",
           "name": "south",
-          "updatedAt": "2022-04-18T03:24:20.623Z",
+          "updatedAt": "2022-04-22T05:58:46.812Z",
           "createdAt": "2022-04-18T03:22:21.348Z",
           "sketchClassId": "61f070a7b22c0f2218b13093",
           "isCollection": false,
@@ -945,7 +945,7 @@
         "properties": {
           "id": "625cd98e73095115bb25ec1b",
           "name": "north",
-          "updatedAt": "2022-04-18T03:25:28.025Z",
+          "updatedAt": "2022-04-22T06:06:30.633Z",
           "createdAt": "2022-04-18T03:22:54.724Z",
           "sketchClassId": "61f070a7b22c0f2218b13093",
           "isCollection": false,
@@ -971,7 +971,7 @@
         "properties": {
           "id": "625cd9b773095115bb25ec1d",
           "name": "northeast",
-          "updatedAt": "2022-04-18T03:24:19.786Z",
+          "updatedAt": "2022-04-22T05:58:38.039Z",
           "createdAt": "2022-04-18T03:23:35.376Z",
           "sketchClassId": "61f070a7b22c0f2218b13093",
           "isCollection": false,
