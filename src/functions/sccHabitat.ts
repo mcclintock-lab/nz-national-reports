@@ -36,10 +36,11 @@ export async function sccHabitat(
     | SketchCollection<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
-  // const url = `${config.dataBucketUrl}${METRIC.filename}`;
-  // console.log(url);
 
+  // Replaced with subdivided polygons
+  // const url = `${config.dataBucketUrl}${METRIC.filename}`;
   // const features = await fgbFetchAll<ExistingProtectionFeature>(url, box);
+
   let features = await SubdividedHabitatSource.fetch(box);
 
   const metrics: Metric[] = (

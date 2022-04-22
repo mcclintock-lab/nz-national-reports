@@ -17,7 +17,7 @@ describe("Basic smoke tests", () => {
   });
 
   test("clipToOceanEez", async () => {
-    const examples = await getExamplePolygonSketches();
+    const examples = await getExamplePolygonSketches("antimeridian");
     for (const example of examples) {
       try {
         const result = await clipToOceanEez(example);

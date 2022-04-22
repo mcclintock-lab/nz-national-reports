@@ -95,9 +95,9 @@ const Habitat = () => {
                   </div>
                 }
               />
-              {/* {isCollection && (
+              {isCollection && (
                 <Collapse title="Show by MPA">{genSketchTable(data)}</Collapse>
-              )} */}
+              )}
             </>
           );
         }}

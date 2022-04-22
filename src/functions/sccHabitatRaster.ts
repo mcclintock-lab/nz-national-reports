@@ -10,6 +10,11 @@ import {
   MultiPolygon,
   overlapRasterClass,
   classIdMapping,
+  groupBy,
+  toSketchArray,
+  isSketchCollection,
+  nestMetrics,
+  createMetric,
 } from "@seasketch/geoprocessing";
 import { loadCogWindow } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
@@ -24,43 +29,56 @@ export async function sccHabitat(
 ): Promise<ReportResult> {
   const box = sketch.bbox || bbox(sketch);
 
-  const metricsByRegion = await Promise.all(
-    METRIC.regions.map(async (region) => {
-      const metricGroup = { ...METRIC, ...region };
-      const url = `${config.dataBucketUrl}${metricGroup.filename}`;
+  const sketches = toSketchArray(sketch).map((sk) => sk.properties.id);
+  const sketchIds = isSketchCollection(sketch)
+    ? [sketch.properties.id, ...sketches]
+    : sketches;
 
-      const raster = await loadCogWindow(url, {}); // Load whole raster
+  const metrics = (
+    await Promise.all(
+      METRIC.regions.map(async (region) => {
+        const metricGroup = { ...METRIC, ...region };
+        const url = `${config.dataBucketUrl}${metricGroup.filename}`;
 
-      const metrics: Metric[] = (
-        await overlapRasterClass(
-          METRIC.metricId,
-          raster,
-          sketch,
-          classIdMapping(METRIC.classes)
-        )
-      ).map((m) => ({ ...m, regionId: region.regionName }));
-      return metrics;
-    })
-  );
+        const raster = await loadCogWindow(url, {}); // Load whole raster
 
-  // seed with first region metrics
-  const metricsByClass = metricsByRegion[0].reduce<Record<string, Metric>>(
-    (soFar, metric) => ({ ...soFar, [metric.classId!]: metric }),
-    {}
-  );
+        const metrics: Metric[] = (
+          await overlapRasterClass(
+            METRIC.metricId,
+            raster,
+            sketch,
+            classIdMapping(METRIC.classes)
+          )
+        ).map((m) => ({ ...m, regionId: region.regionName }));
+        return metrics;
+      })
+    )
+  ).reduce((soFar, regionMetrics) => soFar.concat(regionMetrics), []);
 
-  // traverse remaining regions adding their value
-  METRIC.regions.slice(1).forEach((region, regionIndex) => {
-    const curRegionMetrics = metricsByRegion[regionIndex + 1];
-    curRegionMetrics.forEach((m) => {
-      metricsByClass[m.classId!].value += m.value;
+  // Sum metrics for each sketch and class ID combination
+  const metricsBySketchByClass = nestMetrics(metrics, [
+    "sketchId",
+    "classId",
+  ]) as Record<string, Record<string, Metric[]>>;
+
+  const summedMetrics: Metric[] = [];
+  sketchIds.forEach((curSketchId) => {
+    Object.keys(classIdMapping(METRIC.classes)).forEach((curClassId) => {
+      const curMetrics = metricsBySketchByClass[curSketchId][curClassId];
+      const summedMetric = curMetrics.reduce<Metric>(
+        (metricSoFar, curMetric) => {
+          return metricSoFar.value
+            ? { ...metricSoFar, value: (metricSoFar.value += curMetric.value) }
+            : curMetric;
+        },
+        createMetric({})
+      );
+      summedMetrics.push(summedMetric);
     });
   });
 
-  const metrics = Object.values(metricsByClass);
-
   return {
-    metrics: rekeyMetrics(metrics),
+    metrics: rekeyMetrics(summedMetrics),
     sketch: toNullSketch(sketch, true),
   };
 }

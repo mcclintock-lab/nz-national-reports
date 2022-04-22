@@ -132,7 +132,7 @@ export const ClassTable: React.FunctionComponent<ClassTableProps> = ({
       style: { width: "18%" },
     },
     {
-      Header: "Area (sq. km)",
+      Header: "Approximate area (sq. km)",
       accessor: (row) => {
         const value =
           metricsByClassByMetric[row.classId][metricIdName][0].value;
