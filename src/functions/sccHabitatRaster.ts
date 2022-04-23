@@ -49,7 +49,7 @@ export async function sccHabitat(
             sketch,
             classIdMapping(METRIC.classes)
           )
-        ).map((m) => ({ ...m, regionId: region.regionName }));
+        ).map((m) => ({ ...m, geographyId: region.regionName }));
         return metrics;
       })
     )
