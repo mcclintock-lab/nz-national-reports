@@ -1,0 +1,23 @@
+{
+  "metrics": [
+    {
+      "metricId": "sketchArea",
+      "sketchId": "62054c709557604f3e5f6cd1",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 159448132834.5647
+    }
+  ],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "62054c709557604f3e5f6cd1",
+      "name": "antimeridian",
+      "updatedAt": "2022-02-18T16:56:59.790Z",
+      "createdAt": "2022-02-10T17:33:36.081Z",
+      "sketchClassId": "5f46dd53017aa0388f5f87c5",
+      "isCollection": false
+    }
+  }
+}

@@ -23,6 +23,23 @@ export const fgbFileSuffix = ".fgb";
 
 export const objectives = {};
 
+const sketchArea: MetricGroup = {
+  metricId: "sketchArea",
+  classes: [
+    {
+      classId: "sketchArea",
+      display: "Sketch Area",
+    },
+  ],
+};
+
+const sizeReport: Report = {
+  reportId: "size",
+  metrics: {
+    sketchArea,
+  },
+};
+
 //// HABITAT PROTECTION ////
 
 // Multi-class raster (categorical)
@@ -32,6 +49,7 @@ const sccClasses: DataClass[] = Array.from({ length: 75 }, (v, i) => ({
   display: `Group ${i + 1}`,
 }));
 
+// Vector based - unused
 const habitatAreaOverlap: MetricGroup = {
   metricId: "sccHabitatAreaOverlap",
   datasourceId: "sccHabitat",
@@ -42,6 +60,7 @@ const habitatAreaOverlap: MetricGroup = {
   layerId: "6063dc472b3a98ca7fba3567",
 };
 
+// Raster-based
 interface MetricGroupRegion extends MetricGroup {
   regions: Array<{
     regionName: string;
@@ -85,10 +104,12 @@ export default {
   dataBucketUrl,
   objectives,
   metricGroups: {
+    sketchArea,
     habitatAreaOverlap,
     habitatAreaOverlapRasterRegion,
   },
   reports: {
+    sizeReport,
     habitatReport,
   },
 };

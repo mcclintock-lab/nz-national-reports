@@ -5,7 +5,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "1",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 23,
       "extra": {
         "sketchName": "north"
@@ -16,7 +16,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "2",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -27,7 +27,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "3",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 40,
       "extra": {
         "sketchName": "north"
@@ -38,7 +38,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "4",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 34915,
       "extra": {
         "sketchName": "north"
@@ -49,7 +49,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "5",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 24192,
       "extra": {
         "sketchName": "north"
@@ -60,7 +60,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "6",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 2,
       "extra": {
         "sketchName": "north"
@@ -71,7 +71,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "7",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 3,
       "extra": {
         "sketchName": "north"
@@ -82,7 +82,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "8",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 3997,
       "extra": {
         "sketchName": "north"
@@ -93,7 +93,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "9",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 319,
       "extra": {
         "sketchName": "north"
@@ -104,7 +104,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "10",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 5,
       "extra": {
         "sketchName": "north"
@@ -115,7 +115,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "11",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 8,
       "extra": {
         "sketchName": "north"
@@ -126,7 +126,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "12",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 6,
       "extra": {
         "sketchName": "north"
@@ -137,7 +137,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "13",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 3127,
       "extra": {
         "sketchName": "north"
@@ -148,7 +148,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "14",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 43,
       "extra": {
         "sketchName": "north"
@@ -159,7 +159,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "15",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1,
       "extra": {
         "sketchName": "north"
@@ -170,7 +170,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "16",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 2035,
       "extra": {
         "sketchName": "north"
@@ -181,7 +181,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "17",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 38,
       "extra": {
         "sketchName": "north"
@@ -192,7 +192,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "18",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 4,
       "extra": {
         "sketchName": "north"
@@ -203,7 +203,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "19",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -214,7 +214,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "20",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -225,7 +225,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "21",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -236,7 +236,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "22",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 3,
       "extra": {
         "sketchName": "north"
@@ -247,7 +247,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "23",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -258,7 +258,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "24",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -269,7 +269,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "25",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 11,
       "extra": {
         "sketchName": "north"
@@ -280,7 +280,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "26",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -291,7 +291,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "27",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -302,7 +302,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "28",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 679,
       "extra": {
         "sketchName": "north"
@@ -313,7 +313,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "29",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -324,7 +324,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "30",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1048,
       "extra": {
         "sketchName": "north"
@@ -335,7 +335,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "31",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 2,
       "extra": {
         "sketchName": "north"
@@ -346,7 +346,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "32",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -357,7 +357,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "33",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 483,
       "extra": {
         "sketchName": "north"
@@ -368,7 +368,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "34",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -379,7 +379,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "35",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -390,7 +390,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "36",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -401,7 +401,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "37",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -412,7 +412,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "38",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -423,7 +423,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "39",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -434,7 +434,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "40",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -445,7 +445,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "41",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 726,
       "extra": {
         "sketchName": "north"
@@ -456,7 +456,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "42",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 573,
       "extra": {
         "sketchName": "north"
@@ -467,7 +467,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "43",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 174,
       "extra": {
         "sketchName": "north"
@@ -478,7 +478,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "44",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -489,7 +489,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "45",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -500,7 +500,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "46",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -511,7 +511,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "47",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -522,7 +522,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "48",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -533,7 +533,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "49",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 73,
       "extra": {
         "sketchName": "north"
@@ -544,7 +544,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "50",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1,
       "extra": {
         "sketchName": "north"
@@ -555,7 +555,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "51",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 291,
       "extra": {
         "sketchName": "north"
@@ -566,7 +566,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "52",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -577,7 +577,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "53",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -588,7 +588,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "54",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -599,7 +599,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "55",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -610,7 +610,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "56",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -621,7 +621,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "57",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -632,7 +632,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "58",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 17,
       "extra": {
         "sketchName": "north"
@@ -643,7 +643,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "59",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -654,7 +654,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "60",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -665,7 +665,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "61",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -676,7 +676,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "62",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -687,7 +687,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "63",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -698,7 +698,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "64",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -709,7 +709,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "65",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -720,7 +720,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "66",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -731,7 +731,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "67",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -742,7 +742,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "68",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -753,7 +753,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "69",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -764,7 +764,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "70",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -775,7 +775,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "71",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -786,7 +786,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "72",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -797,7 +797,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "73",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 37,
       "extra": {
         "sketchName": "north"
@@ -808,7 +808,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "74",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"
@@ -819,7 +819,7 @@
       "sketchId": "625cd98e73095115bb25ec1b",
       "classId": "75",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "north"

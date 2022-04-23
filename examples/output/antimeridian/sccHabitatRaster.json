@@ -5,7 +5,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "1",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 2,
       "extra": {
         "sketchName": "antimeridian"
@@ -16,7 +16,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "2",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1756,
       "extra": {
         "sketchName": "antimeridian"
@@ -27,7 +27,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "3",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 4021,
       "extra": {
         "sketchName": "antimeridian"
@@ -38,7 +38,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "4",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1289,
       "extra": {
         "sketchName": "antimeridian"
@@ -49,7 +49,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "5",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -60,7 +60,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "6",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 38,
       "extra": {
         "sketchName": "antimeridian"
@@ -71,7 +71,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "7",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -82,7 +82,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "8",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 34,
       "extra": {
         "sketchName": "antimeridian"
@@ -93,7 +93,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "9",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -104,7 +104,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "10",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 1,
       "extra": {
         "sketchName": "antimeridian"
@@ -115,7 +115,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "11",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 3,
       "extra": {
         "sketchName": "antimeridian"
@@ -126,7 +126,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "12",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -137,7 +137,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "13",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 55,
       "extra": {
         "sketchName": "antimeridian"
@@ -148,7 +148,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "14",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -159,7 +159,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "15",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -170,7 +170,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "16",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -181,7 +181,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "17",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 20,
       "extra": {
         "sketchName": "antimeridian"
@@ -192,7 +192,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "18",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -203,7 +203,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "19",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -214,7 +214,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "20",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -225,7 +225,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "21",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -236,7 +236,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "22",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -247,7 +247,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "23",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -258,7 +258,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "24",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -269,7 +269,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "25",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -280,7 +280,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "26",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -291,7 +291,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "27",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -302,7 +302,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "28",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -313,7 +313,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "29",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -324,7 +324,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "30",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -335,7 +335,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "31",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -346,7 +346,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "32",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -357,7 +357,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "33",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -368,7 +368,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "34",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -379,7 +379,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "35",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -390,7 +390,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "36",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -401,7 +401,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "37",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -412,7 +412,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "38",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -423,7 +423,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "39",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -434,7 +434,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "40",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -445,7 +445,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "41",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -456,7 +456,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "42",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -467,7 +467,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "43",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -478,7 +478,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "44",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -489,7 +489,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "45",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -500,7 +500,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "46",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -511,7 +511,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "47",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -522,7 +522,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "48",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -533,7 +533,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "49",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -544,7 +544,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "50",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -555,7 +555,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "51",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -566,7 +566,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "52",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -577,7 +577,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "53",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -588,7 +588,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "54",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -599,7 +599,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "55",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -610,7 +610,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "56",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -621,7 +621,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "57",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -632,7 +632,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "58",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -643,7 +643,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "59",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -654,7 +654,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "60",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -665,7 +665,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "61",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -676,7 +676,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "62",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -687,7 +687,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "63",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -698,7 +698,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "64",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -709,7 +709,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "65",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -720,7 +720,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "66",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -731,7 +731,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "67",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -742,7 +742,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "68",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -753,7 +753,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "69",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -764,7 +764,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "70",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -775,7 +775,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "71",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -786,7 +786,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "72",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -797,7 +797,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "73",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -808,7 +808,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "74",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"
@@ -819,7 +819,7 @@
       "sketchId": "62054c709557604f3e5f6cd1",
       "classId": "75",
       "groupId": null,
-      "geographyId": null,
+      "geographyId": "west",
       "value": 0,
       "extra": {
         "sketchName": "antimeridian"

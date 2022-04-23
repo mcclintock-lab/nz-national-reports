@@ -1,0 +1,37 @@
+{
+  "metrics": [
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625cd98e73095115bb25ec1b",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 429246319478.69104
+    }
+  ],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "625cd98e73095115bb25ec1b",
+      "name": "north",
+      "updatedAt": "2022-04-22T06:06:30.633Z",
+      "createdAt": "2022-04-18T03:22:54.724Z",
+      "sketchClassId": "61f070a7b22c0f2218b13093",
+      "isCollection": false,
+      "userAttributes": [
+        {
+          "label": "Protection Type",
+          "fieldType": "ChoiceField",
+          "exportId": "MPA_Type"
+        }
+      ]
+    },
+    "id": "1",
+    "bbox": [
+      167.777533969066,
+      -36.53199439339995,
+      176.08319803156365,
+      -28.888280492486146
+    ]
+  }
+}

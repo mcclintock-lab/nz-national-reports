@@ -1,0 +1,127 @@
+{
+  "metrics": [
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625cd96d73095115bb25ec19",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 1097307270946.8158
+    },
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625cd98e73095115bb25ec1b",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 429246319478.69104
+    },
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625cd9b773095115bb25ec1d",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 622631100622.2397
+    },
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625cd9da73095115bb25ec1f",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2149184691047.7466
+    }
+  ],
+  "sketch": {
+    "type": "FeatureCollection",
+    "properties": {
+      "id": "625cd9da73095115bb25ec1f",
+      "name": "simple",
+      "updatedAt": "2022-04-22T06:06:30.362Z",
+      "createdAt": "2022-04-18T03:24:10.897Z",
+      "sketchClassId": "61f070d3b22c0f2218b1309b",
+      "isCollection": true,
+      "userAttributes": []
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "625cd96d73095115bb25ec19",
+          "name": "south",
+          "updatedAt": "2022-04-22T05:58:46.812Z",
+          "createdAt": "2022-04-18T03:22:21.348Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type",
+              "value": "HPA"
+            }
+          ]
+        },
+        "id": "1",
+        "bbox": [
+          -179.99999999999696,
+          -57.16324975163721,
+          179.99999999999696,
+          -49.813405642841
+        ]
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "625cd98e73095115bb25ec1b",
+          "name": "north",
+          "updatedAt": "2022-04-22T06:06:30.633Z",
+          "createdAt": "2022-04-18T03:22:54.724Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type"
+            }
+          ]
+        },
+        "id": "2",
+        "bbox": [
+          167.777533969066,
+          -36.53199439339995,
+          176.08319803156365,
+          -28.888280492486146
+        ]
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "625cd9b773095115bb25ec1d",
+          "name": "northeast",
+          "updatedAt": "2022-04-22T05:58:38.039Z",
+          "createdAt": "2022-04-18T03:23:35.376Z",
+          "sketchClassId": "61f070a7b22c0f2218b13093",
+          "isCollection": false,
+          "userAttributes": [
+            {
+              "label": "Protection Type",
+              "fieldType": "ChoiceField",
+              "exportId": "MPA_Type",
+              "value": "SPA"
+            }
+          ]
+        },
+        "id": "3",
+        "bbox": [
+          -179.99999999999696,
+          -32.422003335296495,
+          179.99999999999696,
+          -25.66660506711677
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metrics": [
+    {
+      "metricId": "sketchArea",
+      "sketchId": "625fa0e38a405e36827dfced",
+      "classId": "sketchArea",
+      "groupId": null,
+      "geographyId": null,
+      "value": 8212708233.409911
+    }
+  ],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "id": "625fa0e38a405e36827dfced",
+      "name": "2habclass",
+      "updatedAt": "2022-04-20T05:57:55.705Z",
+      "createdAt": "2022-04-20T05:57:55.705Z",
+      "sketchClassId": "61f070a7b22c0f2218b13093",
+      "isCollection": false,
+      "userAttributes": [
+        {
+          "label": "Protection Type",
+          "fieldType": "ChoiceField",
+          "exportId": "MPA_Type",
+          "value": "HPA"
+        }
+      ]
+    },
+    "id": "1",
+    "bbox": [
+      168.47928567804945,
+      -40.11406096147801,
+      169.66580911554914,
+      -39.115420420081115
+    ]
+  }
+}
